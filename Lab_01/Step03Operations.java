@@ -1,6 +1,6 @@
 package Lab_01;
 
-public record Step03Operations() {
+public class Step03Operations {
     public static void main(String[] args) {
         // We learn simple operations in Java
         // Addition
