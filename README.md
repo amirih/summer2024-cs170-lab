@@ -10,4 +10,5 @@ Please follow the steps one by one if you wish to practice beforehand.
 
 Summer 2024, CS 170 Emory University 
 
-Hossein Amiri 
+Hossein Amiri,
+Test GitHub on Intelij 
