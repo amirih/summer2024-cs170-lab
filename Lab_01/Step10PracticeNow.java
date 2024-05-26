@@ -1,6 +1,6 @@
 package Lab_01;
 
-import libs.Turtle;
+import libs.*;
 /*
 
 discussion notes/ group contributions go here
