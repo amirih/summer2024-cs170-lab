@@ -2,7 +2,7 @@ package Lab_02;
 
 import libs.*;
 
-public class Step09PracticeNow {
+public class PracticeNow {
 
   public static void main(String[] args) {
     Turtle t = new Turtle();

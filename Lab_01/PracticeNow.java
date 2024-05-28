@@ -7,7 +7,7 @@ discussion notes/ group contributions go here
 
 */
 
-public class Step10PracticeNow {
+public class PracticeNow {
 
 	public static void TGIF(Turtle t) {
 		// your code goes here
