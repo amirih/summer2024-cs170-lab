@@ -25,6 +25,7 @@ public class Step04TypeConversion {
 
         // int to float
         floatTemp = intValueA;
+        System.out.println("int to float: " + intValueA + " -> " + floatTemp);
 
         // int to string
         stringTemp = Integer.toString(intValueA);
@@ -98,6 +99,16 @@ public class Step04TypeConversion {
         System.out.println("string to string: " + stringValueA + " -> " + stringTemp);
 
         // explicit conversion with loss of data
+
+        int a =5;
+        int b=8;
+        double c=9.0;
+        String d ="Hello";
+        System.out.println(a+b+c+d);
+        System.out.println(a+d+b+c);
+        System.out.println(a+d+b*c);
+        System.out.println(a+d+(b+c));
+
 
     }
 }

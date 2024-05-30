@@ -25,6 +25,8 @@ public class Step01Errors {
         // int first#Number = 10;
 
         //// syntax error: variable name cannot contain a special character
+        // UPDATE: $ is allowed in variable names but it is not recommended to avoid
+        //// confusion
         // int first$Number = 10;
 
         //// logic error: the following code will print the result of subtraction
