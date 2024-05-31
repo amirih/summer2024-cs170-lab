@@ -28,10 +28,32 @@ public class Step08SimpleCipher {
         return decrypted;
     }
 
+    public static void guessShift(String encryptedText){
+        System.out.println(encryptedText);
+        String decryptedText="";
+        for (int shift=-100;shift<100;shift++){
+            decryptedText = decrypt(encryptedText,shift);
+            if(isInEnglish(decryptedText)==true){
+                System.out.println("The shift value is: "+ shift);
+                System.out.println("The decrypted text is: " + decryptedText);
+            }
+
+        }
+    }
+    public static boolean isInEnglish(String str) {
+        for (char ch : str.toCharArray()) {
+            if (ch!=' ' && !Character.isLetter(ch)){
+                return false;
+            }
+        }
+        return true;
+    }
     public static void main(String[] args) {
         String plainText = "This is my secret message";
+        System.out.println("plainText: " + plainText);
         String encryptedText = encrypt(plainText, 3);
         System.out.println("Encrypted: " + encryptedText);
+        guessShift(encryptedText);
         String decryptedText = decrypt(encryptedText, 3);
         System.out.println("Decrypted: " + decryptedText);
 

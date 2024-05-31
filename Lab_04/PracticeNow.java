@@ -1,6 +1,9 @@
 package Lab_04;
 
 public class PracticeNow {
+	public static double method() {
+		return 1.0;
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Problem 1: Calculate the area of shaded area (two triangles)");
@@ -8,6 +11,7 @@ public class PracticeNow {
 
 		// Here should should calculate the shaded area and store it to 'shaded_area_p1'
 		double shaded_area_p1 = 0.0; // Replace this value
+		// double shaded_area_p1 = method(); // This can be used to call a method
 		System.out.println("The shaded area of is " + shaded_area_p1);
 
 		System.out.println("Problem 2: Calculate the area of shaded area (ring)");
