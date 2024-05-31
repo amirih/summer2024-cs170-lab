@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step01Scope {
+public class Step05Scope {
     int a = 5; // this is a global variable (instance variable)
     static int b = 10; // this is a global variable
 
@@ -53,8 +53,8 @@ public class Step01Scope {
 
         printGlobalVariable();
 
-        Step01Scope exampleObject1 = new Step01Scope();
-        Step01Scope exampleObject2 = new Step01Scope();
+        Step05Scope exampleObject1 = new Step05Scope();
+        Step05Scope exampleObject2 = new Step05Scope();
 
         System.out.println("Object 1 (a): " + exampleObject1.a);
         System.out.println("Object 2 (a): " + exampleObject2.a);
