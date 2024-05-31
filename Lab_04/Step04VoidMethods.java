@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step02VoidMethods {
+public class Step04VoidMethods {
     public static void printMyName(String name) {
         System.out.println("My name is: " + name);
     }

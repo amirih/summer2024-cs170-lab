@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step07MathematicalCalculations {
+public class Step08MathematicalCalculations {
     // Fibonacci series: a(i) = a(i-1) + a(i-2)
     public static int fibonacci(int n) {
         int a = 0, b = 1, c = 0;

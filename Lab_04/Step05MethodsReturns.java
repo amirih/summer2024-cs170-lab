@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step04MethodsReturns {
+public class Step05MethodsReturns {
     public static String getMyNameString(String name) {
         String nameString = "My name is: " + name;
         return nameString;

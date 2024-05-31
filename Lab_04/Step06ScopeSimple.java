@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step06Scope {
+public class Step06ScopeSimple {
     public static void method(int input) {
         int a = 10;
         System.out.println("inside the method :" + a);

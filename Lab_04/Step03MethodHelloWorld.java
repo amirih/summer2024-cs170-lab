@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step03Method {
+public class Step03MethodHelloWorld {
     public static void voidMethodWithoutParameter() {
         System.out.println("Hello World");
     }
