@@ -1,6 +1,6 @@
 package Lab_04;
 
-public class Step02LoopAccumulation {
+public class Step06LoopAccumulation {
     public static void main(String[] args) {
         int sum = 0; // outside the loop initialized to 0
 
