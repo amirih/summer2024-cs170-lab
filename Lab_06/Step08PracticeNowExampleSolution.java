@@ -1,6 +1,6 @@
 package Lab_06;
 
-public class PracticeNow {
+public class Step08PracticeNowExampleSolution {
     public static boolean isPalindrome(String str) {
         int i = 0;
         int j = str.length() - 1;
