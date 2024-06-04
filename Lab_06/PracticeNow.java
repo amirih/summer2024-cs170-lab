@@ -1,7 +1,9 @@
 package Lab_06;
 // First try to solve the problem by yourself 
 // Step08PracticeNowExampleSolution.java is an example solution to the problem.
-// Please study the solution and bring your own solution to the problem if you needed 
+// Please study the solution and bring your own solution to the problem if you needed
+// I want the implementation to be your own idea; if you stuck, then you can see the solution. 
+// If you don't need the solution, that is the perfect way to do the assignment.
 public class PracticeNow {
     public static boolean isPalindrome(String str) {
         return true;
