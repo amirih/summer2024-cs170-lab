@@ -1,4 +1,5 @@
 package Lab_06;
+
 // First try to solve the problem by yourself 
 // Step08PracticeNowExampleSolution.java is an example solution to the problem.
 // Please study the solution and bring your own solution to the problem if you needed
