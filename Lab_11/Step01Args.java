@@ -1,10 +1,9 @@
-
 package Lab_11;
 
 class Step01Args {
 
     public static void printName(String name, int repeat) {
-        for (int i = 0; i < repeat; i++) {
+        for (int i = repeat; i > 0; i--) {
             System.out.println(name);
         }
     }
@@ -23,5 +22,4 @@ class Step01Args {
         }
         printName(name, repeat);
     }
-
 }
